@@ -14,7 +14,7 @@ services:
   jira:
     container_name: jira
     image: jira-ca:latest
-    #image: dchevell/jira-software:latest
+    #image: atlassian/jira-software:latest
     networks:
       - labs
     ports:
