@@ -5,6 +5,7 @@ node {
     
     def GRADLE_HOME = tool name: 'gradle-4.10.2', type: 'hudson.plugins.gradle.GradleInstallation'
     def REPO_URL = 'https://github.com/cloudacademy/devops-webapp.git'
+    def DOCKERHUB_REPO = 'cloudacademydevops/webapp'
     
 
     stage('Clone') {        
