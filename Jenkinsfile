@@ -4,8 +4,8 @@ node {
     def JIRA_PROJ_NAME = 'SKYNET'
     
     def GRADLE_HOME = tool name: 'gradle-4.10.2', type: 'hudson.plugins.gradle.GradleInstallation'
-    def REPO_URL = 'https://github.com/cloudacademy/devops-webapp.git'
-    def DOCKERHUB_REPO = 'cloudacademydevops/webapp'
+    def REPO_URL = '<Repo_URL>'
+    def DOCKERHUB_REPO = '<Repo_folder>'
     
 
     stage('Clone') {        
